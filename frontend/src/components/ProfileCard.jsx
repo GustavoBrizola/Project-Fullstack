@@ -19,18 +19,6 @@ import Data from './Data';
 export default
 function ProfileCard()
 {
-    const ButtonChars =
-    {
-        Type: 'a',
-        ClassName: 'Profilelinkedin',
-        Href: ProfileData.Social[0],
-        Target: '_blank',
-        Rel: 'noopener noreferrer',
-        ClassImage: 'PhoneImage',
-        Image: '/images/ico/InBug-White.png',
-        VerticalDiviser: 'Divider',
-        Text: 'LinkedIn',
-    }
 
     // Profile Card Format on HTML
     return (
