@@ -1,7 +1,7 @@
 {
     "Name": "Your Name",
     "Age": "Your Age",
-    "Local": ["City", "State", "Contry"],
+    "Local": ["City", "State", "Country"],
     "Work": "Your Work profession",
     "Phrase": "Quick Phrase",
     "Contact": ["Your professional contacts", "Personal"],
