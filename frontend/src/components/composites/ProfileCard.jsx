@@ -7,9 +7,6 @@ import TruncateText from '../../scripts/TruncateText';
 // Json
 import ProfileData from '../../data/ProfileInfo.json'
 
-// Abstractions
-import List from                    '../abstractions/List';
-
 // Buttons
 import ButtonDownloadResume from    '../elements/buttons/ButtonDownloadResume';
 import ButtonLinkedin from          '../elements/buttons/ButtonLinkedin';
