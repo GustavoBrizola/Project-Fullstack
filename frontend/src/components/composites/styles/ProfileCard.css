@@ -6,9 +6,9 @@ body
 
 .ProfilePicture 
 {
-    height: 400px; /* Set your desired height */
+    height: 400px;
     width: 200px;
-    object-fit:scale-down; /* Ensures the image doesn't distort */
+    object-fit:scale-down;
 }
 
 .ProfileCard

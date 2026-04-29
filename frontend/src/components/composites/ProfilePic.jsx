@@ -1,0 +1,28 @@
+import './styles/ProfilePic.css'
+import ProfileData from '../../data/ProfileInfo.json'
+
+// Elements
+import ListPersonalInfo from '../elements/list/ListPersonalInfo';
+import '../elements/list/styles/ListPersonalInfo.css';
+
+
+export default
+function ProfilePic()
+{
+  return (
+    <div className='ProfilePic'>
+      <img className='ProfilePicWallpaper'
+        src='/images/photos/Wallpaper.jpg'
+        alt=""
+      />
+      <div className='ProfilePicContent'>
+        <img className='ProfilePicPhoto'
+          src='/images/photos/ProfilePicPhoto.png'
+          alt={`${ProfileData.Name}'s profile photo`}
+        />
+        {ProfileData.Name}
+        <ListPersonalInfo/>
+      </div>
+    </div>
+  )
+}

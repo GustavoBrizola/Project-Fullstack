@@ -1,5 +1,5 @@
 // Styles
-import './ProfileCard.css';
+import './styles/ProfileCard.css';
 
 // Scripts
 import TruncateText from '../../scripts/TruncateText';

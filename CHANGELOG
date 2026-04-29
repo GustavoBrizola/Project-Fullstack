@@ -1,3 +1,13 @@
+**April 29, 2026**
+- Site layout refactored
+- Components folders optimized, specially for styles
+- Profile Pic created
+    * contains wallpaper and photo (placeholder)
+- About Me square created
+- Top Bar created
+- Bottom Bar Placed
+
+
 **April 28, 2026**
 - Personal Info section from ProfileCard abstracted into own file
 
